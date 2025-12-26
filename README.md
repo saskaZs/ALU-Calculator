@@ -1,6 +1,6 @@
 # 🔢 ALU Simulation in Excel
 
-An educational simulation of an **Arithmetic Logic Unit (ALU)** in Excel, demonstrating binary operations like addition, subtraction, multiplication, and division at the gate level.
+A simulation of an **Arithmetic Logic Unit (ALU)** in Excel, demonstrating binary operations like addition, subtraction, multiplication, and division at the gate level.
 
 This project uses spreadsheet formulas to mimic digital logic gates (e.g., AND, OR, NOT) and components like full adders/subtractors, providing a step-by-step visualization of how basic arithmetic works in binary.
 
@@ -17,7 +17,7 @@ This project uses spreadsheet formulas to mimic digital logic gates (e.g., AND, 
 ---
 
 ## 📂 Project Structure
-`ALU.xlsx`     # The main Excel file with simulation sheets
+`ALU.xlsx`     # The main Excel file with simulation sheets ··
 `README.md`    # This file
 
 
