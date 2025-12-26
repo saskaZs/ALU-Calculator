@@ -17,9 +17,7 @@ This project uses spreadsheet formulas to mimic digital logic gates (e.g., AND, 
 ---
 
 ## 📂 Project Structure
-`ALU.xlsx`     # The main Excel file with simulation sheets ··
-`README.md`    # This file
-
+`ALU.xlsx`     # The main Excel file with simulation sheets
 
 ---
 
