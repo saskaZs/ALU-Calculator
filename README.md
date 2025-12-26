@@ -61,20 +61,20 @@ Used for addition. For each bit position:
 - Outputs: Sum = A XOR B XOR Cin, Carry-out = (A AND B) OR (A AND Cin) OR (B AND Cin)
 
 **Formula for Sum Bit:**
-$$ S = A \oplus B \oplus C_{in} $$
+$$S = A \oplus B \oplus C_{in}$$
 
 **Formula for Carry-Out:**
-$$ C_{out} = (A \cdot B) + (A \cdot C_{in}) + (B \cdot C_{in}) $$
+$$C_{out} = (A \cdot B) + (A \cdot C_{in}) + (B \cdot C_{in})$$
 
 ### 2. Full Subtractor
 Used for subtraction (A - B). Similar to adder but with borrow.
 - Outputs: Difference = A XOR B XOR Bin, Borrow-out = (~A AND B) OR (~A AND Bin) OR (B AND Bin)
 
 **Formula for Difference:**
-$$ D = A \oplus B \oplus B_{in} $$
+$$D = A \oplus B \oplus B_{in}$$
 
 **Formula for Borrow-Out:**
-$$ B_{out} = (\neg A \cdot B) + (\neg A \cdot B_{in}) + (B \cdot B_{in}) $$
+$$B_{out} = (\neg A \cdot B) + (\neg A \cdot B_{in}) + (B \cdot B_{in})$$
 
 ### 3. Multiplier
 Implements shift-and-add method:
